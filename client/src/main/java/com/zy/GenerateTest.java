@@ -8,6 +8,8 @@ import java.util.Arrays;
 public class GenerateTest {
 
     public static void main(String[] args) throws InterruptedException {
+
+
         System.out.println(writeClasspathToFile("zzz"));
         System.out.println(Arrays.toString(args));
         Thread.sleep(60000);
